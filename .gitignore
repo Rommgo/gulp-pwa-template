@@ -1,8 +1,8 @@
 /node_modules/
 /build
 /.idea
+/package-lock.json
 /src/css/*.css
 /src/js/*.js
-
 /src/*.html
 *.map
