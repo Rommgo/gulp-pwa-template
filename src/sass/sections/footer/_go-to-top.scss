@@ -1,0 +1,24 @@
+//go to top button
+.go-top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 8;
+  display: none;
+  transform: rotate(90deg);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  & img {
+    position: relative;
+    transition: all 0.3s ease;
+    height: 39px;
+    width: 39px;
+  }
+
+  &:hover {
+    background-color: rgba(227, 227, 227, 1);
+  }
+  &:hover img {
+    cursor: pointer;
+  }
+}

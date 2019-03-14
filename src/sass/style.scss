@@ -1,0 +1,12 @@
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "base";
+
+//service
+@import "buttons";
+
+//import style for sections
+@import "sections/header/header";
+@import "sections/footer/footer";
+@import "sections/footer/go-to-top";

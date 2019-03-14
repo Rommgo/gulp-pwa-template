@@ -1,7 +1,8 @@
-/www/package-lock\.json
-/www/node_modules/
-/www/.idea
-/www/app/css/style.css.map
-/www/app/css/style.css
+/node_modules/
+/build
+/.idea
+/src/css/*.css
+/src/js/*.js
 
-www/app/js/script\.min\.js\.map
+/src/*.html
+*.map
